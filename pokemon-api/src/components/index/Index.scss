@@ -1,0 +1,20 @@
+.index{
+    color: red;
+    font-size: 20px;
+    border: 1px solid red;
+    
+    &__container{
+        height: 100vh;
+        border: 3px solid green;
+        background-color: yellow;
+        display: flex;
+        // justify-content: space-between;
+    }
+    &__title{
+        font-size: 40px;
+    }
+    &__img{
+        width: 100px;
+        height: 100px;
+    }
+}
